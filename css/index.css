@@ -1,5 +1,5 @@
 h1 { 
-    font-size: x-large;
+    text-shadow: 1px 1px #FFDE7D;
 }
 body {
     background-color: #76b39d;
@@ -7,30 +7,42 @@ body {
     
 }
 
-.intro-text {
-    margin-top: 20px;;
+main {
+    background-color: #F8F3D4 ;
+    margin-top: 5%;
     margin-right: 15%;
-    margin-left: 15%;
-
-}
-.inputs {
-    margin-top: 15%;
-  
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding: 2%;
 }
 
-#image-header-left{
-    float: left;
-    margin-left: 200px;
+#intro-text-1 {
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-bottom: 3%;
+    margin-left: 20%;    
+}
+
+#intro-text-2 {
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    margin-left: 5%;
 
 }
-#image-header-right{
-    float: right;
-}
+
+
+
 #pat {
     float: left;
-    right-margin: 0%;
-    left-margin: 10%;
+    margin-top: 2%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    margin-left: 10%;
     width: 20%;
+}
+#fish-img {
+    float: right;
 }
 
 .nav {
@@ -39,6 +51,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    
 }
 
 li {
@@ -48,11 +61,15 @@ li {
 li a {
     display: inline-block;
     color: white;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
     background-color: #111;
+}
+
+.address {
+    margin-left: 28%;
+    
 }
