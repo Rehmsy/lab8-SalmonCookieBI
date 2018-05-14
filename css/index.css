@@ -1,14 +1,15 @@
 h1 { 
-    text-shadow: 1px 1px #FFDE7D;
+    text-shadow: 2px 2px 4px #FFDE7D;
 }
 body {
     background-color: #76b39d;
     font-family: 'Arimo', sans-serif;
-    
+    line-height: 170%;
 }
 
 main {
-    background-color: #F8F3D4 ;
+    background-color: #F8F3D4;
+    border-radius: 10px;
     margin-top: 5%;
     margin-right: 15%;
     margin-bottom: 5%;
@@ -16,11 +17,20 @@ main {
     padding: 2%;
 }
 
+footer {
+    
+    width: 100%;
+    text-align: center;
+    background-color: F6416C;
+
+}
 #intro-text-1 {
     margin-top: 10%;
     margin-right: 15%;
     margin-bottom: 3%;
-    margin-left: 20%;    
+    margin-left: 20%; 
+    
+
 }
 
 #intro-text-2 {
@@ -28,6 +38,7 @@ main {
     margin-right: 15%;
     margin-bottom: 10%;
     margin-left: 5%;
+    
 
 }
 
@@ -35,14 +46,19 @@ main {
 
 #pat {
     float: left;
+    border-radius: 10px;
     margin-top: 2%;
     margin-right: 5%;
     margin-bottom: 2%;
     margin-left: 10%;
     width: 20%;
 }
-#fish-img {
-    float: right;
+
+.make-cookies {
+    border-radius: 10px;
+    display: inline block;
+    margin-left: 10%;
+    width: 22%;
 }
 
 .nav {
@@ -51,7 +67,7 @@ main {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    
+    border-radius: 5px;
 }
 
 li {
@@ -72,4 +88,9 @@ li a:hover {
 .address {
     margin-left: 28%;
     
+}
+
+.location {
+    margin-left: 10%;
+    margin-bottom: 1%;
 }
